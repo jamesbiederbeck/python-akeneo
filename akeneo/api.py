@@ -19,7 +19,7 @@ import requests
 from requests import Request
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 
-from version import __version__
+from .version import __version__
 
 __all__ = ['AkeneoAPI']
 AKENEO_DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
